@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
@@ -130,7 +131,7 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a href="#">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
